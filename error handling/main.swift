@@ -28,7 +28,7 @@ catch FacultyError.invalidSalary(let salary)
 {
     print("invalid Salary: \(salary)")
 }
-catch FacultyError.invalidSalary(let message)
+catch FacultyError.invalidSalaryWithMessage(let message)
 {
     print( "invalid salary :  < 1000")
 }
